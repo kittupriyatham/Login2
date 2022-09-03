@@ -52,6 +52,7 @@ class ViewController: UIViewController {
 //            let navigation2 = UINavigationController(rootViewController: UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "DashboardVC") as! DashboardVC)
             view.addSubview(navigation.view)
             self.addChild(navigation)
+//            navigation.pushViewController(controller, animated: true)
             navigation.didMove(toParent: self)
         }
     }

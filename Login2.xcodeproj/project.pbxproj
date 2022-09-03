@@ -13,7 +13,7 @@
 		7464723428C1D529007139A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7464723228C1D529007139A7 /* Main.storyboard */; };
 		7464723628C1D52A007139A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7464723528C1D52A007139A7 /* Assets.xcassets */; };
 		7464723928C1D52A007139A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7464723728C1D52A007139A7 /* LaunchScreen.storyboard */; };
-		7464724328C23EEF007139A7 /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464724228C23EEF007139A7 /* DashboardVC.swift */; };
+		7464724528C2F096007139A7 /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464724428C2F095007139A7 /* DashboardVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		7464723528C1D52A007139A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7464723828C1D52A007139A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7464723A28C1D52A007139A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7464724228C23EEF007139A7 /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = SOURCE_ROOT; };
+		7464724428C2F095007139A7 /* DashboardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 		7464722B28C1D529007139A7 /* Login2 */ = {
 			isa = PBXGroup;
 			children = (
-				7464724228C23EEF007139A7 /* DashboardVC.swift */,
+				7464724428C2F095007139A7 /* DashboardVC.swift */,
 				7464722C28C1D529007139A7 /* AppDelegate.swift */,
 				7464722E28C1D529007139A7 /* SceneDelegate.swift */,
 				7464723028C1D529007139A7 /* ViewController.swift */,
@@ -142,7 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7464723128C1D529007139A7 /* ViewController.swift in Sources */,
-				7464724328C23EEF007139A7 /* DashboardVC.swift in Sources */,
+				7464724528C2F096007139A7 /* DashboardVC.swift in Sources */,
 				7464722D28C1D529007139A7 /* AppDelegate.swift in Sources */,
 				7464722F28C1D529007139A7 /* SceneDelegate.swift in Sources */,
 			);
@@ -308,7 +308,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -336,7 +336,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
