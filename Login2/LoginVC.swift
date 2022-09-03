@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LoginVC: UIViewController {
     @IBOutlet var lblLogin:UILabel!
     @IBOutlet var lblUname:UILabel!
     @IBOutlet var txtUname:UITextField!
@@ -47,13 +47,14 @@ class ViewController: UIViewController {
             lblRes.textColor = UIColor.black
             print("lblRes =",lblRes.text!)
             let story = UIStoryboard(name: "Main", bundle: nil)
-            let controller = story.instantiateViewController(identifier: "DashboardVC") as! DashboardVC
+            let controller = story.instantiateViewController(withIdentifier: "DashboardVC") as! DashboardVC
+//            let controller = story.instantiateViewController(identifier: "DashboardVC") as! DashboardVC
             let navigation = UINavigationController(rootViewController: controller)
-//            let navigation2 = UINavigationController(rootViewController: UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "DashboardVC") as! DashboardVC)
             view.addSubview(navigation.view)
             self.addChild(navigation)
-//            navigation.pushViewController(controller, animated: true)
             navigation.didMove(toParent: self)
+//            let navigation2 = UINavigationController(rootViewController: UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "DashboardVC") as! DashboardVC)
+//            navigation.pushViewController(controller, animated: true)
         }
     }
 }
